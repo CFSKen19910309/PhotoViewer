@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoViewer", "PhotoViewer\PhotoViewer.csproj", "{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A} = {ADD3F69E-18CF-49B3-B7A7-075644A9F58A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUtility", "..\Lib_CSharp_WinForm\LibUtility\LibUtility.csproj", "{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Debug|x64.ActiveCfg = Debug|x64
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Debug|x64.Build.0 = Debug|x64
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Release|x64.ActiveCfg = Release|x64
+		{3AF0E0DF-35DD-4839-B371-29CF5BA0DEBB}.Release|x64.Build.0 = Release|x64
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Debug|x64.Build.0 = Debug|Any CPU
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Release|x64.ActiveCfg = Release|Any CPU
+		{ADD3F69E-18CF-49B3-B7A7-075644A9F58A}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27847195-3F10-4239-B89C-21C89B1E7EA3}
+	EndGlobalSection
+EndGlobal
